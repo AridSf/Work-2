@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="744c71f6-7398-4397-a310-e992abd37421" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/addEntries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/script.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylePages.css" afterDir="false" />
-    </list>
+    <list default="true" id="744c71f6-7398-4397-a310-e992abd37421" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +86,7 @@
       <workItem from="1709824545674" duration="1488000" />
       <workItem from="1709828958140" duration="1043000" />
       <workItem from="1709890305551" duration="617000" />
-      <workItem from="1709910806614" duration="1116000" />
+      <workItem from="1709910806614" duration="1487000" />
     </task>
     <servers />
   </component>
