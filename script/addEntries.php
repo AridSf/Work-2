@@ -7,11 +7,17 @@ $content = $_POST["content"] ?? null;
 
 $pdo = getPDO();
 
-// Простой вариант записи в таблицу данных
+// Запись в таблицу с параметрами
+// text');DELETE FROM entries; -- 'text      <-- Пример запроса для поля content
 
-$sql = "INSERT INTO entries (title, content) VALUES ('$title', '$content')";
+$sql = "INSERT INTO entries (title, content) VALUES (:title, :content)";
 
-$pdo->exec($sql);
+$stmt = $pdo->prepare($sql);
+
+$stmt->bindValue(":title", $_POST["title"]);
+$stmt->bindValue(":content", $_POST["content"]);
+
+$stmt->execute();
 
 
 redirect("/");
